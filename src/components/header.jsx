@@ -40,7 +40,7 @@ const Header = () => {
         </Link>
 
         <div className="flex gap-8">
-          <img src="/github.png" className="h-10" alt="github"></img>
+         <a href="https://github.com/ArhamShameem/JobSphere"> <img src="/github.png" className="h-10" alt="github"></img></a>
 
           <SignedOut>
             <Button variant="outline" onClick={() => setShowSignIn(true)}>
